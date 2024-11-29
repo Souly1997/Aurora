@@ -42,27 +42,4 @@ int main(){
     
     return 0;
 }
-/*Make a program that calculates the Body Mass Index (BMI) of a person and determine weather the person is
-in normal weight, under weight or over weight. BMI is calculated as (BMI = w/h*h). Make the program to
-work for multiple person before terminated.
 
-inpu(weight, height)
-calculation(BMI = w/h*h)
-out put
- normal body mass index (BMI) is between 18.5 and 24.9:
-
-    Underweight: BMI is less than 18.5
-    Normal weight: BMI is 18.5 to 24.9
-    Overweight: BMI is 25 to 29.9
-    Obese: BMI is 30 or more
-
-Algorithm
-start 
-read the input(w,h)
-orperation BMI= w/h*h 
-print BMI 
-end
-
-
-
-  */
