@@ -1,0 +1,2 @@
+start
+read the input
