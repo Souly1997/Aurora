@@ -5,25 +5,26 @@ Make a program that calculates the Body Mass Index (BMI) of a person and determi
 in normal weight, under weight or over weight. BMI is calculated as (BMI = w/h*h). Make the program to
 work for multiple person before terminated.
 
-*start
-*read the input as (height, weight, and number)
+* start
 
-*calculate body mass indedx(BMI) as BMI=weight/(height*height)
+* read the input as (height, weight, and number)
 
-*if(BMI<18.5) then weight=under weight
+* calculate body mass indedx(BMI) as BMI=weight/(height*height)
 
-*if(BMI>18.5 & BMI<24.9) then weight=normal weight
+* if(BMI<18.5) then weight=under weight
 
-*if(BMI>24.918.5 & BMI<29.9) then weight=over weight
+* if(BMI>18.5 & BMI<24.9) then weight=normal weight
 
-*if(BMI>29.9) then weight=obese
+* if(BMI>24.918.5 & BMI<29.9) then weight=over weight
 
-*Print weight
+* if(BMI>29.9) then weight=obese
 
-*read the input number 
+* Print weight
 
-*if (number=1) then goto line 2
+* read the input number 
 
-*if(number=0) finish
+* if (number=1) then goto line 2
 
-*End
+* if(number=0) finish
+
+* End
