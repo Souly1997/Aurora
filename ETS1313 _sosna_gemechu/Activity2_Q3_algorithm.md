@@ -26,7 +26,7 @@ flowchart TD
     Decision["number = 1?"]
     End([End])
 
-   Start --> Input1
+     Start --> Input1
     Input1 --> Calc
     Calc --> Check1
     Check1 --> Underweight
