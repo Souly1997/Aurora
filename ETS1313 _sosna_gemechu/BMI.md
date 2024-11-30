@@ -13,10 +13,17 @@ work for multiple person before terminated.
 -if(BMI<18.5) then weight=under weight
 
 -if(BMI>18.5 & BMI<24.9) then weight=normal weight
+
 -if(BMI>24.918.5 & BMI<29.9) then weight=over weight
+
 -if(BMI>29.9) then weight=obese
+
 -Print weight
+
 -read the input number 
+
 -if (number=1) then goto line 2
+
 -if(number=0) finish
+
 -End
