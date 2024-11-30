@@ -1,4 +1,4 @@
-# Algorithm of Question number1
+# Algorithm of Question number 1
 ## Psedocode 
 
 Make a program that calculates the Body Mass Index (BMI) of a person and determine weather the person is
