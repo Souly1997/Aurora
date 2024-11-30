@@ -1,2 +1,0 @@
-start
-read the input
