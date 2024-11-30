@@ -28,3 +28,43 @@ work for multiple person before terminated.
 * if(number=0) finish
 
 * End
+
+
+
+
+
+
+```mermaid
+flowchart TD
+    Start([Start])
+    Input1["Read height, weight, and number"]
+    Calc["Calculate BMI = weight / (height * height)"]
+    Check1["BMI < 18.5?"]
+    Underweight["Underweight"]
+    Check2["BMI ≤ 24.9?"]
+    Normal["Normal weight"]
+    Check3["BMI ≤ 29.9?"]
+    Overweight["Overweight"]
+    Obese["Obese"]
+    Output["Print weight category"]
+    Continue["Read number (1 to continue, 0 to exit)"]
+    Decision["number = 1?"]
+    End([End])
+
+    Start --> Input1
+    Input1 --> Calc
+    Calc --> Check1
+    Check1 --> Underweight
+    Check1 --> Check2
+    Underweight --> Output
+    Check2 --> Normal
+    Check2 --> Check3
+    Normal --> Output
+    Check3 --> Overweight
+    Check3 --> Obese
+    Overweight --> Output
+    Obese --> Output
+    Output --> Continue
+    Continue --> Decision
+    Decision --> Input1
+    Decision --> End
