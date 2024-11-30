@@ -7,8 +7,11 @@ work for multiple person before terminated.
 
 -start
 -read the input as (height, weight, and number)
+
 -calculate body mass indedx(BMI) as BMI=weight/(height*height)
+
 -if(BMI<18.5) then weight=under weight
+
 -if(BMI>18.5 & BMI<24.9) then weight=normal weight
 -if(BMI>24.918.5 & BMI<29.9) then weight=over weight
 -if(BMI>29.9) then weight=obese
