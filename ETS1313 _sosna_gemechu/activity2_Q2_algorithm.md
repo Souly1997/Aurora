@@ -16,6 +16,6 @@ without refueling.
 
     ## flow chart of the above psedocode
     ```mermaid
-  flowchart TB
-       start-->read the input (capacity in gallon and fuel in gallon the automobile can drive for 1 mile)
-  ```
+flowchart TD
+    Start([Start])
+    Input1["capacity in gallon and fuel in gallon the automobile can drive for 1 mile"]
