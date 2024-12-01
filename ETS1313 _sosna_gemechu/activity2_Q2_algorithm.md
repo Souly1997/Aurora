@@ -16,6 +16,6 @@ without refueling.
 
     ## flow chart of the above psedocode
     ```mermaid
-   flowchart TB
-       star`-->read the input (capacity in gallon and fuel in gallon the automobile can drive for 1 mile)
+  flowchart TB
+       start-->read the input (capacity in gallon and fuel in gallon the automobile can drive for 1 mile)
   ```
