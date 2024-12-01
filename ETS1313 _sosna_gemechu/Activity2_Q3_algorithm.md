@@ -12,7 +12,7 @@ Write a program that find the result of the expression x^y where the value of X 
 ## flowchart of the above psedocode
 ```mermaid
 graph TD
-    A[Start] --> B[Read input of two positive integers X and Y]
+    A[Start] --> B{Read input of two positive integers X and Y}
     B --> C[i = 1, product = 1]
     C --> D[product *= X]
     D --> E{Is i <= Y?}
