@@ -14,7 +14,7 @@ Write a program that find the result of the expression x^y where the value of X 
 graph TD
     A[Start] --> B[Read input of two positive integers X and Y]
     B --> C[i = 1, X = 1]
-    C --> D[X *= X]
+    C --> D[i *= X]
     D --> E{Is i <= Y?}
     E -- Yes --> D
     E -- No --> F[End]
