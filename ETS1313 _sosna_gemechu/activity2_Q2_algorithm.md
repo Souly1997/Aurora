@@ -18,5 +18,6 @@ without refueling.
     ```mermaid
    flowchart TD
   `A[start]`
-  -->[read the input (capacity in gallon and fuel in gallon the automobile can drive for 1 mile)]
-  `B[
+  -->
+  `B[read the input (capacity in gallon and fuel in gallon the automobile can drive for 1 mile)]`
+  ```
