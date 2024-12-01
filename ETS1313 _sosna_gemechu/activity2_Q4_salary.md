@@ -13,3 +13,14 @@ tax: 15%).
 * calculate net salary=base salary-tax-pension
 * print netsalary, gross salary and bunus
 * end
+
+```mermaid
+   flowchart TD
+     A[read input name,weekly working hours, bonus rate per hours and base salary]-->
+     B[calculate bonus=bonusrate*working hours]-->
+C[calculate gross salary=bonus+base salary]-->
+D[ calculate tax=0.15*gross salary]-->
+E[calculate pension=o.5*gross salary]-->
+F[calculate net salary=base salary-tax-pension]-->
+G[print netsalary, gross salary and bunus]-->
+H[end]
