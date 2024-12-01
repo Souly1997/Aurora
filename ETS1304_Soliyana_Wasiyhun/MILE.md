@@ -1,7 +1,8 @@
-#Algorithm of
+# Algorithm of question no 3
 Write a program that prompts the capacity in gallons of an automobile fuel tank and the miles per gallons
 the automobiles can be driven. The program outputs the number miles the automobile cam be driven
 without refueling.
+
 
 * start
 * read input (capacity in gallon and fuel in gallon the automobile can drive for 1 mile)
@@ -18,4 +19,4 @@ without refueling.
     ```mermaid
      flowchart TD
     A[Start]-->B[read input capacity in gallon and fuel in gallon the automobile can drive for 1 mile]-->
-    C[calculate number of mile the automobile can drive as  required mile=gallon capacity*1mile/gallon automobile can drive in 1 mile]-->D[print the mile required with out refueling]
+    C[calculate number of mile the automobile can drive as  required mile=gallon capacity*1mile/gallon automobile can drive in 1 mile]-->D[print the mile required with out refueling] -->E[end]
