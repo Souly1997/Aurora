@@ -17,6 +17,6 @@ without refueling.
     ## flow chart of the above psedocode
     ```mermaid
      flowchart TD
-    A[Start]-->B[capacity in gallon and fuel in gallon the automobile can drive for 1 mile]
+    A[Start]-->B[capacity in gallon and fuel in gallon the automobile can drive for 1 mile]-->
     C[calculate number of mile the automobile can drive as  required mile=gallon capacity*1mile/gallon automobile can drive in 1 mile]-->D[print the mile required with out refueling]
   
