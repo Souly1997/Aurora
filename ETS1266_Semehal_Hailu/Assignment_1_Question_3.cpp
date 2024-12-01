@@ -1,4 +1,4 @@
-/*Write a program that find the result of the expression 𝑥^𝑦 where the value of X and Y are entered by the user.*/
+Write a program that find the result of the expression 𝑥^𝑦 where the value of X and Y are entered by the user.
 
 #include<iostream>
 using namespace std;
