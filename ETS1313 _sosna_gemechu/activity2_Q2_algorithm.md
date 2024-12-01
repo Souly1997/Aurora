@@ -4,7 +4,7 @@ the automobiles can be driven. The program outputs the number miles the automobi
 without refueling.
 
 * start
-* read in put (capacity in gallon and fuel in gallon the automobile can drive for 1 mile)
+* read input (capacity in gallon and fuel in gallon the automobile can drive for 1 mile)
 * calculate number of mile the automobile can drive as
   
  1 mile = gallon automobile can drive
@@ -15,4 +15,8 @@ without refueling.
   * print the mile required with out refueling
 
     ## flow chart of the above psedocode
-    
+    ```mermaid
+   flowchart TD
+  `A[start]`
+  -->[read the input (capacity in gallon and fuel in gallon the automobile can drive for 1 mile)]
+  `B[
